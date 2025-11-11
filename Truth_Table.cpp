@@ -103,7 +103,7 @@ void Truth_Table::displayTable() {
   for (int i = 0; i < used_variables.size(); ++i)
     cout << "|-----";
   cout << "|";
-  for (size_t i = 0; i < testSteps.size(); ++i)
+  for (int i = 0; i < testSteps.size(); ++i)
     cout << "--------------------|";
   cout << endl;
 
@@ -122,4 +122,5 @@ void Truth_Table::displayTable() {
     cout << endl;
   }
 }
+
 
